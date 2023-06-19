@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #header-nav {
+    background-color: lightslategray;
+    border: 3px solid black;
+    margin-bottom: 0; /* removing space between two div */
+    padding-bottom: 0;
+
+  }
+  .container {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .navbar-brand{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .navbar-brand a {
+    font-size: 1.8em;
+    color: black;
+    font-weight: 550;
+  }
+
+  .navbar-brand a:hover{
+    text-decoration: none;
+  }
+
+  #collapsable-nav{
+    margin-top: 0;
+    padding-top: 0;
+    border: 1px solid black;
+  }
+  #collapsable-nav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #collapsable-nav ul li {
+    background-color: white;
+  }
+  
+  #collapsable-nav ul li a {
+    font-size: 1.4em;
+    color: black;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+  }
+  #collapsable-nav ul li a:hover {
+    background-color: firebrick;
+  }
+
+  /* navigation bar border modification */
+  #chicken, #shushi{
+    border-top:1px solid black ;
+    border-bottom:1px solid black ;
+  }
+  #beef{
+    border-top:1px solid black ;
+  }
+
+  /* end*/
+  
+  #heading-title h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-weight: 550;
+
+  }
+  
+  #menu-01 {
+    background-color: lightblue;
+  }
+  
+  #menu-02 {
+    background-color: rgb(176, 184, 192);
+  }
+  
+  #menu-03 {
+    background-color: lightcoral;
+  }
+  
+  #menu-01,
+  #menu-02,
+  #menu-03,
+  h3 {
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  section{
+    margin-top: 25px;
+  }
+  section h4 {
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+
+  .row{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+
+  .row div{
+    margin-top: 25px;
+  }
+  
+  .navbar-header button.navbar-toggle,
+  .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  
+  
+  
+  
+  
+  /* Important */
+
+  .navbar-toggle{
+    margin-top: 18px;
+    margin-right: 25px;
+  }
+
+/* Media queries */
